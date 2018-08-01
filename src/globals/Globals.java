@@ -565,7 +565,7 @@ public class  Globals {
 				if (System.getProperty("browser").equalsIgnoreCase("Chrome")) {
 					
 					System.setProperty("webdriver.chrome.driver",
-							directoryPath + "//lib//DriverRelated// .//chromedriver.sh");
+							directoryPath + "//lib//DriverRelated//.//chromedriver.sh");
 					/*String downloadPath = System.getProperty("user.dir")+"\\Downloads\\";
 					new File(downloadPath).mkdirs();
 					HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
